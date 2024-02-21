@@ -54,8 +54,8 @@ def compile_video(frames, output_path):
     out.release()
 
 def main():
-    # Replace 'path/to/your/video.mp4' with the actual path to your uploaded video
-    video_path = 'path/to/your/video.mp4'
+    # Replace 'zuck.mp4' with the actual path to your uploaded video
+    video_path = 'zuck.mp4'
 
     # Step 1: Extract frames from the video
     frames = extract_frames(video_path)
